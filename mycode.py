@@ -9,12 +9,12 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 df = pd.DataFrame(data)
 
 
-# new_row_loc = {'Name': 'V2', 'Age': 20, 'City': 'City1'}
-# df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name': 'gf1', 'Age': 20, 'City': 'City1'}
+df.loc[len(df.index)] = new_row_loc
 
 
-# new_row_loc2 = {'Name': 'V3', 'Age': 30, 'City': 'City1'}
-# df.loc[len(df.index)] = new_row_loc2
+new_row_loc2 = {'Name': 'gf2', 'Age': 30, 'City': 'City2'}
+df.loc[len(df.index)] = new_row_loc2
 
 
 data_dir = 'data'
